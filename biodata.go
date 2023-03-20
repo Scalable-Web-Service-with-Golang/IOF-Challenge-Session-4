@@ -96,7 +96,7 @@ func main() {
 
 	studentBiodata := findBiodata(convAbsent)
 
-	fmt.Printf("📌 Biodata dengan No.%s :\n", studentAbsent)
+	fmt.Printf("📌 Biodata absensi No.%s :\n", studentAbsent)
 	fmt.Printf("Nama      : %s\n", studentBiodata.Name)
 	fmt.Printf("Alamat 	  : %s\n", studentBiodata.Address)
 	fmt.Printf("Pekerjaan : %s\n", studentBiodata.Profession)
