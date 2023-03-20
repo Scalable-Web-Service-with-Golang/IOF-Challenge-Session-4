@@ -89,7 +89,7 @@ func main() {
 		return
 	}
 
-	if convAbsent == 0 {
+	if convAbsent < 1 {
 		fmt.Println("Invalid absent number.")
 		return
 	}
